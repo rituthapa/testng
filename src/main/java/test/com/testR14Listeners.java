@@ -11,7 +11,7 @@ public class testR14Listeners implements ITestListener{
 	//ITestListener is an interface you implement in your class; and you provide Listeners utilities inside xml file
 	//setting up the utilities, usually already done in our project
 	//all we have to know is how to use theListeners available to us
-	//this is by passing the Listeners in xml file between <suite> and <test> and giving class-name in it ie, if inside src, you write packagename/classname
+	//this is by passing the Listeners in xml file between <suite> and <test> and giving class-name in it ie, if inside src, you write packagename.classname
 	
 	public void onTestStart(ITestResult result) {
 		System.out.println("Test case is starting");

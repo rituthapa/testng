@@ -25,7 +25,7 @@
 	<dependency>
 		<groupId>commons-io</groupId>
 		<artifactId>commons-io</artifactId>
-		<version>2.6</version>
+		<version>2.12.0</version>
 	</dependency>
 	<dependency>
 		<groupId>org.uncommons</groupId>
@@ -44,6 +44,16 @@
 		<artifactId>json-simple</artifactId>
 		<version>1.1.1</version>
 	</dependency>
-	
+	<dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi</artifactId>
+      <version>5.2.3</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi-ooxml</artifactId>
+      <version>5.2.3</version>
+    </dependency>
 	</dependencies>
 </project>
